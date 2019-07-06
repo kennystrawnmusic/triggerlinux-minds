@@ -1,4 +1,4 @@
-pkgname=jak-social-minds
+pkgname=triggerbox-minds
 pkgver=1.0
 pkgrel=1
 pkgdesc="Minds"
