@@ -12,7 +12,7 @@ package() {
   cd $srcdir
   mkdir -p $pkgdir/usr/bin
   mkdir -p $pkgdir/usr/share/applications
-  cp $srcdir/minds.desktop $pkgdir/usr/share/applications
-  cp $srcdir/minds $pkgdir/usr/bin
-  cp $srcdir/minds-wrapper $pkgdir/usr/bin
+  cp $srcdir/$pkgname/minds.desktop $pkgdir/usr/share/applications
+  cp $srcdir/$pkgname/minds $pkgdir/usr/bin
+  cp $srcdir/$pkgname/minds-wrapper $pkgdir/usr/bin
 }
