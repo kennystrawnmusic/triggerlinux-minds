@@ -1,4 +1,4 @@
-pkgname=triggerbox-minds
+pkgname=triggerlinux-minds
 pkgver=1.1
 pkgrel=1
 pkgdesc="Minds"
@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://minds.com"
 license=('GPL')
 depends=('jade-application-kit-git')
-source=("git+https://github.com/realKennyStrawn93/triggerbox-minds#branch=master")
+source=("git+https://github.com/realKennyStrawn93/triggerlinux-minds#branch=master")
 
 package() {
   cd $srcdir
